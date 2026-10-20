@@ -187,7 +187,3 @@ footer { margin-top: auto; border-top: 1px solid var(--rule); }
   html { scroll-behavior: auto; }
   .readmore summary::after { transition: none; }
 }
-
-/* Name always on one line: scales with the width of its column */
-.hero > div:first-child { container-type: inline-size; min-width: 0; }
-.hero h1 { white-space: nowrap; font-size: min(3rem, 8.6cqi); }
