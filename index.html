@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_GB">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {
@@ -75,6 +75,13 @@
 </script>
 <style>
 .intro-q { font-size: clamp(1.5rem, 3.2vw, 2.05rem); line-height: 1.35; font-weight: 400; color: var(--ink); margin: 0 0 24px; text-wrap: balance; }
+.readmore.rs { border: 0; margin-top: 2.4em; }
+.readmore.rs summary { display: inline-flex; justify-content: flex-start; align-items: baseline; gap: 12px; padding: 0; font-family: var(--serif); font-size: 1.45rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.readmore.rs summary::after { content: none; }
+.readmore.rs .pm::before { content: "+"; font-weight: 400; color: var(--forest); }
+.readmore.rs[open] .pm::before { content: "\2212"; }
+.readmore.rs summary:hover { color: var(--forest); }
+.readmore.rs .readmore-body { padding-top: 14px; }
 </style>
 </head>
 <body>
@@ -118,8 +125,8 @@
       <p>Leveraging these insights, I develop and test scalable, multi-level behavioural intervention ensembles that harness psychological, social and institutional influences to accelerate climate action and broader sustainability transitions. I utilise a diverse toolkit of methods including large-scale (megastudy) behavioural experiments, conjoint experiments, psychometric scale development and validation, longitudinal analyses, surveys, field studies and computational text analyses.</p>
       <p>I obtained a PhD in Psychological and Behavioural Science from the London School of Economics and Political Science, UK, supported by a Grantham Research Institute PhD Scholarship. Previously, I completed an MPhil at the University of Cambridge (UK) and a BA (hons) at Yale-NUS College, where I was supported by the Cambridge Trust Scholarship and the Yale-NUS Faculty Scholarship respectively. Currently, I am a postdoctoral researcher at Princeton University, where I also lead the <a href="https://www.princetonclimateschool.com/">Princeton Winter School in Behavioral Science for Climate Action</a>.</p>
       <p>I aim for my work to catalyse real-world change, especially by informing businesses, public institutions, policymakers and advocacy groups.</p>
-    <details class="readmore" id="research">
-      <summary><span>My research</span></summary>
+    <details class="readmore rs" id="research">
+      <summary>Research <span class="pm" aria-hidden="true"></span></summary>
       <div class="readmore-body">
       <p>My overarching aim is to develop a behavioural science for complex societal challenges. I view challenges such as climate change both as targets for intervention and as contexts for uncovering the mechanisms through which individuals, groups and institutions influence one another. I then leverage these insights to design scalable behavioural interventions that mobilise collective action.</p>
       <p>As such, my research is rooted in, and seeks to advance, theories of social and organisational influence and principles of behavioural intervention design. Specifically, I ask: How do psychological, social and institutional processes co-influence one another? How can synergies be created between these processes to drive transformative change? And, equally importantly, what happens when these forces are misaligned on an issue? I translate these insights into interventions to drive key behaviours, including sustainable consumption, workplace sustainability, climate advocacy and policy support. I then stress-test these interventions in multi-intervention megastudies.</p>

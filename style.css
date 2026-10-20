@@ -9,7 +9,7 @@
   --meadow: #2E9B6B;
   --leaf: #8DC35B;
   --serif: "Libre Caslon Text", Georgia, "Times New Roman", serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans: "Libre Caslon Text", Georgia, "Times New Roman", serif;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -134,7 +134,7 @@ h2 { font-size: 1.45rem; font-weight: 700; margin: 0 0 22px; color: var(--ink); 
 }
 .outlet img { width: 32px; height: 32px; object-fit: contain; display: block; }
 .pw { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
-.oname { font-family: var(--sans); font-size: .85rem; font-weight: 600; color: var(--muted); }
+.oname { font-family: var(--serif); font-size: .98rem; font-style: italic; font-weight: 400; color: var(--muted); }
 .pw a { font-size: 1.05rem; }
 .yr { font-family: var(--sans); font-size: .82rem; color: var(--muted); }
 
@@ -187,3 +187,4 @@ footer { margin-top: auto; border-top: 1px solid var(--rule); }
   html { scroll-behavior: auto; }
   .readmore summary::after { transition: none; }
 }
+
